@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gardening</title>
+</head>
+<body>
+    <button id="btn">Click ME! </button>
+    <p id="p"></p>
+</body>
+<script>
+    let btn = document.getElementById("btn")
+    let p = document.getElementById("p")
+    let count = 0
+    btn.addEventListener("click", ()=> {
+        
+        p.innerHTML = count++
+    })
+
+</script>
+</html>
